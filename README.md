@@ -1,1 +1,149 @@
-# Helloworld!
+<!DOCTYPE HTML>
+<html>
+
+
+<title> 연습용page3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+
+
+<head>
+<style>
+#nametitle
+{
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+*
+{
+	font-family: 'Hi Melody', cursive;
+}
+
+#wrap
+{
+	text-align:center;
+}
+
+.parent{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.first {
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.second{
+    flex:1;
+    margin: 0px 5%;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.third{
+    flex:0.7;
+    width:30%;
+    box-sizing: border-box;
+}
+
+</style>
+</head>
+
+
+<body>
+<div id="wrap"> <!-- 전체 레이아웃 시작-->
+
+		<div id = "header;" style = "text-align:center;"> <h1 id = "nametitle">충남 이제우린</h1> </div>
+		</div> <!-- header -->
+
+	<hr>
+		<div style = "text-align: center;"> <br> <!-- container 시작 -->
+				<img src= "C:\Users\USER\Desktop\현수s파일\2022캡스톤\새주제\충남 이제우린\린02.jpg" style = "width : 250px; height:500px;" alt = "지역사진;" >
+
+				<h2 id = "nametitle">소개</h2>
+				<p>
+					<br>맥키스컴퍼니에서 출시한 대전, 세종, 충남 지역을 중심으로 충북 일부 지역까지<br>
+					충청도에서만 판매되고 있는 희석식 소주 브랜드. 2005년에 맑을린으로 출시되어,<br>
+					2008년 O2린(오투린)을 거쳐, 2018년 이제우린으로 제품명이 바뀌어왔다.<br>
+					지역 소주들이 참이슬, 처음처럼 등 대기업 브랜드에 밀려 고전하고 있는 반면,<br> 이제우린의 경우 황톳길 조성,
+					뻔뻔한클래식 운영 등 다양한 CSV(공유가치창조)활동을<br>통해 지역민들의 꾸준한 사랑을 받고 있다.<br>
+					</p>
+					<p style = "clear: both;"></p>
+
+		</div>
+		<div style = "text-align:center;">
+
+			<h2 id = "nametitle">맛<br></h2>
+			<p>깔끔한 목넘김과 부드러운 맛이며,<br>
+				뒤끝이 깔끔한 것이 특징이다.</p>
+				<p style = "clear: both;"></p>
+		</div>
+
+		<div style="text-align:center">
+
+		<h2 id = "nametitle">생산과정<br></h2>
+		<p>
+			1. 깨끗한 숲 속 공기를 순수 분리하여 숙성용 산소를 만듭니다.<br>
+			2. 숙성용 산소를 공정에 투입하여 블렌딩합니다.<br>
+			3. 산소가 함유되어 있는 이제우린을 완성합니다.<br>
+			
+			특허시술인 '산소숙성촉진공법'을 통해<br>
+			산소가 타제품에 비해 3배 더 함유되도록 만들어졌으며, 함유된 산소가<br>
+			숙취해소에 도움이 된다는 사실이 과학적으로 입증된 바 있다.<br></p>
+
+		<h2 id = "nametitle">도수<br></h2>
+		<p>이제우린 일반 - 16.5도<br>
+			이제우린 高 - 20.2도<br>
+			이제우린 담금주 - 1.8L - 25도 / 1.8L,3.6L,5L - 30도 / 1.8L - 35도<br></p>
+
+		<h2 id = "nametitle">광고카피<br></h2>
+		<p>- 당신의 계절에 산뜻함을 전합니다.<br>
+			- 맛도 기분도 산소로 산뜻하게 산다.<br>
+			- 산소가 3배많아 뒤끝없이 산뜻하게, 이제우린<br>
+			-가까워지고 싶을때 이제우린<br>
+			- 맛으로만 말하는 소주들 앞에 #산소입장 #선수입장<br></p>
+
+		<h2 id = "nametitle">관광지</h2>
+		<div class = "parent">
+			<div class = "first">
+				<img src = "C:\Users\USER\Desktop\현수s파일\2022캡스톤\새주제\충남 이제우린\공주한옥마을.jpg" alt = "공주한옥마을" style = "width: 500px; ;height:400px; ">
+				<p>공주한옥마을</p>
+			</div>
+			<div class = "second">
+				<img src = "C:\Users\USER\Desktop\현수s파일\2022캡스톤\새주제\충남 이제우린\대천해수욕장2.png" alt = "대천해수욕장" style = " width:500px;height:400px; ">
+				<p>대천해수욕장</p>
+			</div>
+			<div class = "third">
+				<img src = "C:\Users\USER\Desktop\현수s파일\2022캡스톤\새주제\충남 이제우린\thejoongang기사원본, 지중해마을.jpg" alt = "지중해마을" style = "width:200px;height:400px;">
+				<p>지중해마을</p>
+			</div>
+		</div>
+		</div> <!-- container 끝 -->
+		<p style = "clear: both;"></p>
+
+		<div style="text-align:center">
+			<br><br><br><br><br>
+		<h2 id = "nametitle">칵테일소비방법 소개</h2>
+		<img src = "C:\Users\USER\Desktop\현수s파일\2022캡스톤\새주제\충남 이제우린\출처 이제우린인스타.jpg" alt = "칵테일" style = "width:500px;height:500px;">
+		<p>독한 술을 편하게 즐겨보세요<br></p>
+		</div>
+	<hr>
+
+		<div id = "footer" style = "text-align:center "><h3>한일문화콘텐츠학과 일석이조팀</h3></div> <!-- footer-->
+
+
+</div> <!-- 전체 레이아웃 끝-->
+
+
+</body>
+
+
+</html>
